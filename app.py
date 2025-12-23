@@ -61,7 +61,7 @@ def get_openai_client():
             "Enter your OpenAI API Key",
             type="password",
             help="Get your API key from https://platform.openai.com/api-keys"
-        )
+        ) 
     
     if api_key:
         try:
