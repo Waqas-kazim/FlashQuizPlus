@@ -3,7 +3,6 @@ FlashQuiz+ - Instant Document-to-Quiz Platform
 A Streamlit application that converts study documents into interactive quizzes using AI.
 Optimized for minimal OpenAI API usage.
 """
-load_dotenv()
 
 import streamlit as st
 from PyPDF2 import PdfReader
@@ -14,6 +13,7 @@ from openai import OpenAI
 import random
 import os
 from dotenv import load_dotenv
+load_dotenv()
 
 # ========================================
 # PAGE CONFIGURATION
