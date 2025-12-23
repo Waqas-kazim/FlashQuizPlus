@@ -1,0 +1,15 @@
+# FlashQuiz+ Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core Framework
+streamlit>=1.28.0
+
+# Document Processing
+PyPDF2>=3.0.0
+python-docx>=1.0.0
+
+# AI Integration
+openai>=1.3.0
+
+# Standard libraries (usually pre-installed)
+# random, json, os are built-in
